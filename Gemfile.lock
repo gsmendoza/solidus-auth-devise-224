@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/bitberry-dev/solidus_auth_devise.git
+  revision: 96115116650afbd84ff4ee1c7a2e63a1f4fab51a
+  specs:
+    solidus_auth_devise (2.5.4)
+      deface (~> 1.0)
+      devise (~> 4.1)
+      devise-encryptable (= 0.2.0)
+      solidus_core (>= 2.6, < 4)
+      solidus_support (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -285,12 +296,6 @@ GEM
       kaminari-activerecord (~> 1.1)
       responders
       solidus_core (= 3.1.7)
-    solidus_auth_devise (2.5.4)
-      deface (~> 1.0)
-      devise (~> 4.1)
-      devise-encryptable (= 0.2.0)
-      solidus_core (>= 2.6, < 4)
-      solidus_support (~> 0.5)
     solidus_backend (3.1.7)
       autoprefixer-rails (~> 10.2, >= 10.2.5.1)
       coffee-rails
@@ -420,7 +425,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
   solidus (~> 3.1)
-  solidus_auth_devise
+  solidus_auth_devise!
   solidus_i18n (~> 2.0)
   solidus_paypal_commerce_platform
   spring
