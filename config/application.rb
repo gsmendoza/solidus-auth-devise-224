@@ -12,8 +12,7 @@ module SolidusAuthDevise224
     initializer 'spree.decorators' do |app|
       config.to_prepare do
         Dir.glob(Rails.root.join('app/**/*_decorator*.rb')) do |path|
-          require(path)
-          # require_dependency(path)
+          require_dependency(path)
         end
       end
     end
